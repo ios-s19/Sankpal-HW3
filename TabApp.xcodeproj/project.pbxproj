@@ -14,6 +14,8 @@
 		76D42358225425280091B0C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D42356225425280091B0C7 /* LaunchScreen.storyboard */; };
 		76D42363225425280091B0C7 /* TabAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D42362225425280091B0C7 /* TabAppTests.swift */; };
 		76D4236E225425280091B0C7 /* TabAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4236D225425280091B0C7 /* TabAppUITests.swift */; };
+		76D4237C225427330091B0C7 /* TabOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4237B225427330091B0C7 /* TabOne.swift */; };
+		76D4237E225427440091B0C7 /* TabTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4237D225427440091B0C7 /* TabTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		76D42369225425280091B0C7 /* TabAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D4236D225425280091B0C7 /* TabAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabAppUITests.swift; sourceTree = "<group>"; };
 		76D4236F225425280091B0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D4237B225427330091B0C7 /* TabOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOne.swift; sourceTree = "<group>"; };
+		76D4237D225427440091B0C7 /* TabTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				76D4234D225425220091B0C7 /* AppDelegate.swift */,
 				76D4234F225425220091B0C7 /* ViewController.swift */,
 				76D42351225425230091B0C7 /* Main.storyboard */,
+				76D4237B225427330091B0C7 /* TabOne.swift */,
+				76D4237D225427440091B0C7 /* TabTwo.swift */,
 				76D42354225425280091B0C7 /* Assets.xcassets */,
 				76D42356225425280091B0C7 /* LaunchScreen.storyboard */,
 				76D42359225425280091B0C7 /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D4237E225427440091B0C7 /* TabTwo.swift in Sources */,
 				76D42350225425220091B0C7 /* ViewController.swift in Sources */,
+				76D4237C225427330091B0C7 /* TabOne.swift in Sources */,
 				76D4234E225425220091B0C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
